@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RevitAddIns>
-	<AddIn Type="Application">
+	<AddIn Type="Command">
 		<Name>LabelPlacer</Name>
-		<FullClassName>LIMA.LIMA</FullClassName>
+		<FullClassName>LIMA.LabelPlacer</FullClassName>
 		<Text>LabelPlacer</Text>
 		<Description>Places labels</Description>
 		<VisibilityMode>AlwaysVisible</VisibilityMode>

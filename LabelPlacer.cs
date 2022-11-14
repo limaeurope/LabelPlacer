@@ -64,7 +64,7 @@ namespace LIMA
         {
             AddRibbonPanel(a, "Pipe");
             AddRibbonPanel(a, "Duct");
-            AddRibbonPanel(a, "Wire");
+            AddRibbonPanel(a, "Cable Tray");
 
             return Result.Succeeded;
         }
@@ -188,6 +188,6 @@ namespace LIMA
     public class DuctLabelPlacer : LabelPlacerBase { public override string GetCat() { return "Ducts"; } }
 
     [Transaction(TransactionMode.Manual)]
-    public class WireLabelPlacer : LabelPlacerBase { public override string GetCat() { return "Wires"; } }
+    public class WireLabelPlacer : LabelPlacerBase { public override string GetCat() { return "Cable Trays"; } }
 }
 
